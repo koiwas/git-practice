@@ -73,8 +73,43 @@ git branch -d {branch-name}
 
 ## 基本操作2
 
-### イニット
+### init
 ※スクラッチでも既存でも可
 ```
 git init {project-name}
+```
+
+### track済みファイルの確認
+
+```
+git ls-files
+```
+
+### unstage
+
+```
+git restore --staged {file-name}
+```
+
+### working directoryの内容を破棄
+
+```
+git restore {file-name}
+```
+
+### ファイル名の変更
+※track済みファイルのみ
+```
+git mv {file-name} {new-file-name}
+```
+
+### ファイルの削除
+※ステージング不可
+```
+git rm {file-name}
+```
+
+### ログの短縮表示
+```
+git log --oneline
 ```
