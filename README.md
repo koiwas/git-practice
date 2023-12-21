@@ -1,3 +1,3 @@
 # git-practice
 hogehoge
-hogehoge(main)
+hogehoge(conflict)
