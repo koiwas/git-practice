@@ -71,6 +71,12 @@ git push origin {branch-name}
 git branch -d {branch-name}
 ```
 
+### リモート追跡ブランチの削除
+
+```
+git fetch --prune
+```
+
 ## 基本操作2
 
 ### init
