@@ -26,10 +26,28 @@ git switch -c {branch-name}
 git branch -a
 ```
 
+### リモートリポの情報を取得
+
+```
+git fetch {remote-ref}
+```
+
+### リモート追跡ブランチに切替
+
+```
+git checkout origin/main
+```
+
 ### ブランチの削除
 
 ```
 git branch -d {branch-name}
+```
+
+### リモート追跡ブランチの削除
+
+```
+git fetch --prune
 ```
 
 ### ブランチ名の変更
