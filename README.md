@@ -1,3 +1,3 @@
 # git-practice
 hogehoge
-conflict test!!!(main)
+conflict test!!(conflict-remote)
